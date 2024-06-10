@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Analytics from "./src/components/Analytics";
+import AnalyticsSection from "./AnalyticsSection";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -173,7 +173,7 @@ export default function Example() {
           />
         </div>
       </div>
-      <Analytics />
+      <AnalyticsSection />
     </div>
   );
 }
