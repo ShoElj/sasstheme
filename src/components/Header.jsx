@@ -2,7 +2,8 @@ import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Analytics from "./Analytics";
-import WorkWithUs from "./components/WorkWithUs";
+import WorkWithUs from "./WorkWithUs";
+import Leadership from "./Leadership";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -176,6 +177,7 @@ export default function Example() {
       </div>
       <Analytics />
       <WorkWithUs />
+      <Leadership />
     </div>
   );
 }

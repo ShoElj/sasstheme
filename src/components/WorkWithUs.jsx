@@ -1,4 +1,3 @@
-// src/components/WorkWithUs.jsx
 import React from "react";
 
 const links = [

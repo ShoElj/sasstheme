@@ -1,4 +1,3 @@
-// src/components/SaleBanner.jsx
 export default function SaleBanner() {
   return (
     <div className="bg-indigo-600 text-white text-center py-2">
