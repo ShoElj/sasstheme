@@ -1,5 +1,3 @@
-import React from "react";
-
 const links = [
   { name: "Open roles", href: "#" },
   { name: "Internship program", href: "#" },
@@ -13,7 +11,7 @@ const stats = [
   { name: "Paid time off", value: "Unlimited" },
 ];
 
-export default function WorkWithUs() {
+export default function Example() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <img
