@@ -135,13 +135,13 @@ export default function Example() {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Data to enrich your online business
+            <h1 className="text-6xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              Revolutionize your business with our powerful SaaS tool
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              Foxtrot is a simple and powerful SaaS tool that helps you to track
+              your business analytics and improve your numbers. Just kidding,
+              it's just a template.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
