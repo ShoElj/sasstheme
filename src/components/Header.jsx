@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Analytics from "./Analytics";
 import WorkWithUs from "./WorkWithUs";
 import Leadership from "./Leadership";
-
+import Contact from "./Contact";
 const navigation = [
   { name: "Product", href: "#" },
   { name: "Features", href: "#" },
@@ -178,6 +178,7 @@ export default function Example() {
       <Analytics />
       <WorkWithUs />
       <Leadership />
+      <Contact />
     </div>
   );
 }
