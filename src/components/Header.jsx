@@ -130,7 +130,9 @@ export default function Example() {
               }}
             />
           </div>
-          <div className="mx-auto max-w-3xl py-32 sm:py-48 lg:py-56">
+          <div className="mx-auto max-w-3xl py-16 sm:py-24 lg:py-32">
+            {" "}
+            {/* Reduced padding values */}
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative overflow-hidden rounded-full bg-gray-800 py-1.5 px-4 text-sm leading-6 text-gray-300 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Announcing our next round of funding.{" "}
@@ -165,6 +167,7 @@ export default function Example() {
               </div>
             </div>
           </div>
+
           <div
             className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
             aria-hidden="true"
